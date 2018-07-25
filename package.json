@@ -6,6 +6,7 @@
     "start": "nodemon ./app/bin/www"
   },
   "dependencies": {
+    "bcrypt": "^3.0.0",
     "cookie-parser": "~1.4.3",
     "debug": "~2.6.9",
     "express": "~4.16.0",
@@ -13,10 +14,14 @@
     "hbs": "~4.0.1",
     "http-errors": "~1.6.2",
     "morgan": "~1.9.0",
+    "mysql2": "^1.5.3",
     "passport": "^0.4.0",
     "passport-local": "^1.0.0",
+    "sequelize": "^4.38.0",
     "session-file-store": "^1.2.0",
-    "uuid": "^3.3.2"
+    "connect-session-sequelize": "^5.2.2",
+    "uuid": "^3.3.2",
+    "connect-flash": "^0.1.1"
   },
   "devDependencies": {
     "eslint": "^5.1.0",

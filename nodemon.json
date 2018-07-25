@@ -8,7 +8,8 @@
   "verbose": true,
   "watch": [
     "app/",
-    "views/"
+    "views/",
+    "config/"
   ],
   "env": {
     "NODE_ENV": "development"
