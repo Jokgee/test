@@ -2,23 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a0b6319f-ea7a-438b-ad34-78d0929fb019" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/user/user.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/user/user.routes.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/layouts/main.hbs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/login.hbs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.eslintrc.js" beforeDir="false" afterPath="$PROJECT_DIR$/.sequelizerc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/bin/www" beforeDir="false" afterPath="$PROJECT_DIR$/app/bin/www" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/main/routes.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/main/main.routes.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/user/routes.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/nodemon.json" beforeDir="false" afterPath="$PROJECT_DIR$/nodemon.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/error.hbs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/index.hbs" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -44,8 +29,8 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="gitignore" value="1" />
-          <entry key="hbs" value="11" />
+          <entry key="gitignore" value="2" />
+          <entry key="hbs" value="12" />
           <entry key="js" value="73" />
           <entry key="json" value="17" />
           <entry key="sequelizerc" value="2" />
@@ -54,28 +39,30 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Git file" value="1" />
-          <entry key="Handlebars/Mustache" value="11" />
+          <entry key="Git file" value="2" />
+          <entry key="Handlebars/Mustache" value="12" />
           <entry key="JSON" value="17" />
           <entry key="JavaScript" value="77" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="gitignore" value="4" />
-          <entry key="hbs" value="233" />
+          <entry key="gitignore" value="9" />
+          <entry key="hbs" value="241" />
           <entry key="js" value="4675" />
           <entry key="json" value="533" />
           <entry key="sequelizerc" value="44" />
+          <entry key="txt" value="82" />
           <entry key="www" value="127" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Git file" value="4" />
-          <entry key="Handlebars/Mustache" value="233" />
+          <entry key="Git file" value="9" />
+          <entry key="Handlebars/Mustache" value="241" />
           <entry key="JSON" value="533" />
           <entry key="JavaScript" value="4846" />
+          <entry key="PLAIN_TEXT" value="82" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.js.language.service.starts">
@@ -109,15 +96,6 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/package.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="23" column="29" selection-start-line="23" selection-start-column="29" selection-end-line="23" selection-end-column="29" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/config/user.config.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="272">
@@ -140,9 +118,14 @@
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/layouts/main.hbs">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="53" lean-forward="true" selection-start-line="9" selection-start-column="53" selection-end-line="9" selection-end-column="53" />
+            <state relative-caret-position="34">
+              <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -198,7 +181,6 @@
         <option value="$PROJECT_DIR$/eslintrc.js" />
         <option value="$PROJECT_DIR$/.eslintrc.js" />
         <option value="$PROJECT_DIR$/app/main/routes.js" />
-        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/app/user/passport.local.js" />
         <option value="$PROJECT_DIR$/app/authentication/passport.local.js" />
         <option value="$PROJECT_DIR$/nodemon.json" />
@@ -221,11 +203,12 @@
         <option value="$PROJECT_DIR$/app/views/layout.hbs" />
         <option value="$PROJECT_DIR$/app/views/login.hbs" />
         <option value="$PROJECT_DIR$/package.json" />
-        <option value="$PROJECT_DIR$/app/views/layouts/main.hbs" />
         <option value="$PROJECT_DIR$/app/user/user.routes.js" />
         <option value="$PROJECT_DIR$/app/config/user.config.js" />
         <option value="$PROJECT_DIR$/app/app.js" />
         <option value="$PROJECT_DIR$/app/config/main.config.js" />
+        <option value="$PROJECT_DIR$/app/views/layouts/main.hbs" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -423,12 +406,27 @@
       <workItem from="1531355288787" duration="33640000" />
       <workItem from="1532070544639" duration="20526000" />
       <workItem from="1532443275533" duration="5043000" />
-      <workItem from="1532461777602" duration="5250000" />
+      <workItem from="1532461777602" duration="5774000" />
     </task>
+    <task id="LOCAL-00001" summary="Whoops, forgot to commit a bunch of files">
+      <created>1532480260553</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1532480260553</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Fixed confusing layout situation">
+      <created>1532480426255</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1532480426255</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="64467000" />
+    <option name="totallyTimeSpent" value="64991000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
@@ -459,14 +457,12 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Whoops, forgot to commit a bunch of files" />
+    <MESSAGE value="Fixed confusing layout situation" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed confusing layout situation" />
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/layout.hbs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="7" lean-forward="true" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/authentication/init.js" />
     <entry file="file://$PROJECT_DIR$/app/authentication/middleware.js" />
     <entry file="file://$PROJECT_DIR$/node_modules/express/lib/application.js">
@@ -477,13 +473,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sessions/2ea4c58a-23ed-42b3-9ff1-00e13df01c4d.json" />
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="13" lean-forward="true" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/user/passport.local.js" />
     <entry file="file://$PROJECT_DIR$/sessions/ed7f3410-53de-419b-9b05-9ea617a90277.json" />
     <entry file="file://$PROJECT_DIR$/.eslintrc.js" />
@@ -615,13 +604,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/layouts/main.hbs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="53" lean-forward="true" selection-start-line="9" selection-start-column="53" selection-end-line="9" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/user/user.routes.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="510">
@@ -636,6 +618,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/layout.hbs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/config/user.config.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
@@ -643,6 +632,16 @@
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/layouts/main.hbs">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
         </state>
       </provider>
     </entry>
