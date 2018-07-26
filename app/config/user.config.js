@@ -15,11 +15,14 @@ const bcrypt = require('bcrypt');
 const userModel = require('../user/user');
 
 module.exports = function (passport) {
+// configure passport.js to use the local strategy
   passport.use(new LocalStrategy(
     { usernameField: 'email' },
     (email, password, done) => {
+      console.log('Inside local strategy callback');
       userModel.getUserByEmail(email).then(function(res){
       	const user = res.dataValues;
+      	//console.log(user);
 		  if (!user) {
 			  return done(null, false, { message: 'Invalid credentials.\n' });
 		  }
@@ -27,16 +30,21 @@ module.exports = function (passport) {
 			  return done(null, false, { message: 'Invalid credentials.\n' });
 		  }
 		  return done(null, user);
+	  }).catch(function(error){
+		  return done(null, false, { message: 'No such e-mail.\n' });
 	  });
     }
   ));
 
   // tell passport how to serialize the user
   passport.serializeUser((user, done) => {
+    console.log('Inside serializeUser callback. User id is save to the session file store here');
     done(null, user.id);
   });
 
   passport.deserializeUser((id, done) => {
+    console.log('Inside deserializeUser callback');
+    console.log(`The user id passport saved in the session file store is: ${id}`);
 	userModel.getUserByID(id)
 		.then(res => done(null, res.dataValues) )
 		.catch(error => done(error, false));

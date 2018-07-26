@@ -26,8 +26,8 @@ const express = require('express');
 const path = require('path');
 const logger = require('morgan');
 const session = require('express-session');
-var flash = require('connect-flash');
 var SequelizeStore = require('connect-session-sequelize')(session.Store);
+var flash = require('connect-flash');
 const passport = require('passport');
 
 var config = require('./config/main.config');
